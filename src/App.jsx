@@ -101,6 +101,7 @@ export default function App() {
   const MINT_ADDRESS = "3YDRv79ZNqsQP4v1gEPEQF6KFBdgy8obRiN6iiWYpump"; // Mets ici ta nouvelle adresse de mint Solana
   const BUY_LINK = `https://pump.fun/coin/${MINT_ADDRESS}`;
   const TELEGRAM_LINK = "https://t.me/frogstandPEPE"; 
+  const TWITTER_LINK = "https://x.com/FrogstandPEPE";
   const JUPITER_BUY = `https://jup.ag/?buy=${MINT_ADDRESS}`;
   // -------------------------------------------------------------
 
@@ -162,6 +163,7 @@ export default function App() {
               <div style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
                 <a href={BUY_LINK} target="_blank" rel="noreferrer" className="cta-btn">BUY $FROG</a>
                 <a href={TELEGRAM_LINK} target="_blank" rel="noreferrer" className="cta-btn cta-btn-blue">TELEGRAM</a>
+                <a href={TWITTER_LINK} target="_blank" rel="noreferrer" className="cta-btn cta-btn-blue">X / TWITTER</a> {/* 👈 Nouveau bouton */}
               </div>
 
               {/* MINT BOX */}
