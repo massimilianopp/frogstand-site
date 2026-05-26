@@ -100,7 +100,7 @@ export default function App() {
   // --- CONFIGURATION (À remplacer par tes infos de lancement) ---
   const MINT_ADDRESS = "3YDRv79ZNqsQP4v1gEPEQF6KFBdgy8obRiN6iiWYpump"; // Mets ici ta nouvelle adresse de mint Solana
   const BUY_LINK = `https://pump.fun/coin/${MINT_ADDRESS}`;
-  const TELEGRAM_LINK = "https://t.me/frogstandsolana"; 
+  const TELEGRAM_LINK = "https://t.me/frogstandPEPE"; 
   const JUPITER_BUY = `https://jup.ag/?buy=${MINT_ADDRESS}`;
   // -------------------------------------------------------------
 
@@ -204,7 +204,7 @@ export default function App() {
             <h2 style={{ fontFamily: "Orbitron", fontSize: "2.5rem", marginBottom: 60 }}>TOKENOMICS<span className="neon-text">_</span></h2>
             <div className="tokenomics-grid" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 25 }}>
               {[
-                { label: "Launch", value: "MOONSHOT", desc: "Fair launch infrastructure deployed via Moonshot protocols." },
+                { label: "Launch", value: "PUMP.FUN", desc: "Fair launch infrastructure deployed via Moonshot protocols." },
                 { label: "Liquidity", value: "LOCKED", desc: "Automatic liquidity migration and security enforcement." },
                 { label: "Supply", value: "1B", desc: "Fixed scale supply. One Billion tokens total." },
                 { label: "Dev Alloc.", value: "0%", desc: "Zero team tokens. Clean distribution from block 1." },
