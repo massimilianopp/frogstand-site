@@ -98,7 +98,7 @@ export default function App() {
   const [time, setTime] = useState("");
   
   // --- CONFIGURATION (À remplacer par tes infos de lancement) ---
-  const MINT_ADDRESS = "CdczQNrp2DZ9c89LSjCyRF6VmS4VtTCBkNSjXtpvmoon"; // Mets ici ta nouvelle adresse de mint Solana
+  const MINT_ADDRESS = "3YDRv79ZNqsQP4v1gEPEQF6KFBdgy8obRiN6iiWYpump"; // Mets ici ta nouvelle adresse de mint Solana
   const BUY_LINK = `https://pump.fun/coin/${MINT_ADDRESS}`;
   const TELEGRAM_LINK = "https://t.me/frogstandsolana"; 
   const JUPITER_BUY = `https://jup.ag/?buy=${MINT_ADDRESS}`;
