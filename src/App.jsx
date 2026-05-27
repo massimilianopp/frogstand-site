@@ -190,7 +190,7 @@ const Tokenomics = () => {
         <h2 style={{ fontFamily: "Orbitron", fontSize: "2.5rem", marginBottom: 60 }}>TOKENOMICS<span className="neon-text">_</span></h2>
         <div ref={cardsRef} className="tokenomics-grid" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 25 }}>
           {[
-            { label: "Launch", value: "PUMP.FUN", desc: "Fair launch infrastructure deployed via Moonshot protocols." },
+            { label: "Launch", value: "PUMP.FUN", desc: "Fair launch infrastructure deployed via Pump.fun protocols." },
             { label: "Liquidity", value: "LOCKED", desc: "Automatic liquidity migration and security enforcement." },
             { label: "Supply", value: "1B", desc: "Fixed scale supply. One Billion tokens total." },
             { label: "Dev Alloc.", value: "0%", desc: "Zero team tokens. Clean distribution from block 1." },
